@@ -1,0 +1,148 @@
+	body{
+		background-color: #e8e9f3;
+		margin: 0 0 0 0;
+		padding: 0 0 0 0;
+		font-family: Centhury Gothic;
+	}
+	h1{
+		margin: 0 0 10px 0;
+		font-size: 2.5em;
+	}
+	h2{
+		font-size: 2.2em;
+	}
+/* Logo */
+
+	#logo {
+		text-align: center;
+		width: 100%;
+	}
+	#logo ul{
+		padding: 0em 0em 0em 0em;
+		margin: 0em 0em 0em 0em;
+	}
+	#logo li {
+		display: inline-block;
+		position: center;
+		font-size: 5em;
+	}
+	#logo li::first-letter {
+		color:#7ab7cc;
+	}
+	
+	
+/* Wrappers */
+
+	#header-wrapper{
+		width: 100%;
+		box-shadow : 0 0 10px 2px grey;
+	}
+	#footer-wrapper{
+		width: 100%;
+		box-shadow :0 0 10px 2px grey;
+		
+	}
+	.basic-wrapper{
+		margin: 5% 5% 20% 5%;
+	}
+	.basic-inner-wrapper{
+		margin: 10px 25px 10px 25px;
+	}
+	.work-wrapper{
+		margin: 10% 0 0 0;
+	}
+	.work-wrapper li{
+		float left;
+		display:inline-block;
+	}
+	.work-wrapper ul{
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+	.work-wrapper li a {
+		font-size: 2.5em;
+		color: black;
+		text-align: center;
+		padding: 0px 25px 0 0;
+		text-decoration: none;
+	}
+	.work-wrapper .image{
+		margin: 0px 0px 0px 50px;
+	}
+	
+/* Tables */
+
+	table{
+		padding: 0px 0px 0px 0px;
+	}
+	td{
+		padding: 20px 0px 0px 0px;
+		text-align: top;
+	}
+/* Content */
+
+	#line{
+		border-bottom: solid 2px #7ab7cc;
+	}
+	.basic-inner-wrapper p{
+		text-align: justify;
+		font-size: 1.5em;
+	}
+	.image{
+		border-radius: 50%;
+		margin: 0px 0px 0px 50px;
+		float: right;
+		width: 250px;
+		height: 250px;
+	}
+
+
+/* Menu */
+	
+	#menu
+	{	
+		text-align: center;
+		width: 100%;
+		margin: 0em 0em 0em 0em;
+		font-weight: 100;
+	}
+	
+	#menu ul
+	{
+		padding: 0em 0em 0em 0em;
+		text-align: center;
+	}
+	
+	#menu li
+	{
+		display: inline-block;
+	}
+	
+	#menu li a, #menu li span
+	{
+		display: inline-block;
+
+		padding: 1em 1.5em;
+		letter-spacing: 0.20em;
+		text-decoration: none;
+		font-size: 0.90em;
+		font-weight: 600;
+		text-transform: uppercase;
+		outline: 0;
+		color: black;
+	}
+	
+	#menu li:hover a, #menu li.active a, #menu li.active span
+	{
+		background: #7ab7cc;
+	}
+	
+	#menu .current_page_item a
+	{
+		background: #7ab7cc;
+		color: #FFF;
+	}
+	 
+	

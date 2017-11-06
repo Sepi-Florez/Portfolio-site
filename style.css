@@ -47,9 +47,12 @@
 	}
 	.basic-inner-wrapper{
 		margin: 10px 25px 10px 25px;
+		
 	}
 	.work-wrapper{
 		margin: 10% 0 0 0;
+		box-shadow :0 0 10px 2px grey;
+		padding: 5px 20px 15px 20px;
 	}
 	.work-wrapper li{
 		float left;
@@ -76,6 +79,7 @@
 
 	table{
 		padding: 0px 0px 0px 0px;
+		width: 100%;
 	}
 	td{
 		padding: 20px 0px 0px 0px;

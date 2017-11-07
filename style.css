@@ -74,6 +74,29 @@
 	.work-wrapper .image{
 		margin: 0px 0px 0px 50px;
 	}
+	#footer-wrapper{
+		padding: 10px;
+	}
+	#footer-wrapper p{
+		margin: 0px;
+		text-align : center;
+	}
+	#footer-wrapper ul{
+		text-align: center;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+	#footer-wrapper li{
+		float left;
+		display:inline-block;
+		padding: 10px;
+	}
+	#footer-wrapper img{
+		width: 50px;
+		height: 50px;
+	}
 	
 /* Tables */
 

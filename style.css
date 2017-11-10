@@ -6,10 +6,12 @@
 	}
 	h1{
 		margin: 0 0 10px 0;
-		font-size: 2.5em;
 	}
 	h2{
-		font-size: 2.2em;
+		font-size: 2em;
+	}
+	.clickable a:hover {
+		text-decoration: underline;
 	}
 /* Logo */
 
@@ -39,6 +41,8 @@
 	}
 	#footer-wrapper{
 		width: 100%;
+		/*position: absolute;
+		bottom: 0;*/
 		box-shadow :0 0 10px 2px grey;
 		
 	}
@@ -47,7 +51,6 @@
 	}
 	.basic-inner-wrapper{
 		margin: 10px 25px 10px 25px;
-		
 	}
 	.work-wrapper{
 		margin: 10% 0 0 0;
@@ -114,7 +117,7 @@
 		border-bottom: solid 2px #7ab7cc;
 	}
 	.basic-inner-wrapper p{
-		text-align: justify;
+		text-align: left;
 		font-size: 1.5em;
 	}
 	.image{
@@ -171,5 +174,14 @@
 		background: #7ab7cc;
 		color: #FFF;
 	}
+	
+/* Gamecontainer */
+	#gameContainer{
+		width: 100%;
+		height: 100%;
+	}
+	
+	
+	
 	 
 	

@@ -1,0 +1,46 @@
+<!DocTYPE html>
+<html>
+<head>
+	<link href="../style.css" rel= "stylesheet"/>
+	<link href="../fonts.css" rel="stylesheet" type="text/css" media="all" />
+	<script src="TemplateData/UnityProgress.js"></script>  
+    <script src="Build/UnityLoader.js"></script>
+    <script>var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Build.json", {onProgress: UnityProgress});</script>
+</head>
+<body>
+<div id="header-wrapper">
+	<div id="logo">
+		<ul>
+			<li>David</li>
+			<li>Vink</li>
+		</ul>
+	</div>
+	<!-- <div id="menu">
+		<ul>
+			<li><a href="Empty for now" accesskey="1" title="">About Me</a></li>
+			<li><a href="Meow" accesskey="2" title="">My Work</a></li>
+		</ul>
+	</div> -->
+</div>
+<div class="basic-wrapper">
+	<h1> Clicker prototype </h1>
+	<div id="line"></div>
+	<div class="webgl-content">
+		<div id="gameContainer" <!--style="padding-top: 20px width: 1200px; height: 800px"-->></div>
+		<div class="footer">
+			<div class="title"> In this prototype you can build buildings on the grid and they will generate produce for you, which you can then sell and build more buildings from. The most basic of clicker games you can think off.</div>
+			<div class="fullscreen" onclick="gameInstance.SetFullscreen(1)">
+				<p>Click here for fullscreen</p>
+			</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="footer-wrapper">
+	<p> My social pages </p>
+	<ul>
+		<li><a href="https://twitter.com/Sepicuss"><img src="../images/twitter.png" alt="Twitter Logo"></a></li>
+	</ul>
+</div>
+</body>
+</html>

@@ -1,5 +1,5 @@
 	body{
-		background-color: #e8e9f3;
+		background-color:#ededff;
 		margin: 0 0 0 0;
 		padding: 0 0 0 0;
 		font-family: Centhury Gothic;
@@ -29,7 +29,7 @@
 		font-size: 5em;
 	}
 	#logo li::first-letter {
-		color:#7ab7cc;
+		color:#5eaeff;
 	}
 	
 	
@@ -37,6 +37,7 @@
 
 	#header-wrapper{
 		width: 100%;
+		background-color: white;
 		box-shadow : 0 0 10px 2px grey;
 	}
 	#footer-wrapper{
@@ -53,6 +54,7 @@
 		margin: 10px 25px 10px 25px;
 	}
 	.work-wrapper{
+		background-color: white;
 		margin: 10% 0 0 0;
 		box-shadow :0 0 10px 2px grey;
 		padding: 5px 20px 15px 20px;
@@ -78,6 +80,7 @@
 		margin: 0px 0px 0px 50px;
 	}
 	#footer-wrapper{
+		background-color: white;
 		padding: 10px;
 	}
 	#footer-wrapper p{
@@ -114,7 +117,7 @@
 /* Content */
 
 	#line{
-		border-bottom: solid 2px #7ab7cc;
+		border-bottom: solid 2px #5eaeff;
 	}
 	.basic-inner-wrapper p{
 		text-align: left;
@@ -126,6 +129,7 @@
 		float: right;
 		width: 250px;
 		height: 250px;
+
 	}
 
 

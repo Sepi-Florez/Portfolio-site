@@ -43,6 +43,8 @@
 	}
 	#footer-wrapper{
 		width: 100%;
+		background-color: white;
+		padding: 10px 0px 10px 0px;
 		/*position: absolute;
 		bottom: 0;*/
 		box-shadow :0 0 10px 2px grey;
@@ -81,8 +83,7 @@
 		margin: 0px 0px 0px 50px;
 	}
 	#footer-wrapper{
-		background-color: white;
-		padding: 10px;
+
 	}
 	#footer-wrapper p{
 		margin: 0px;
